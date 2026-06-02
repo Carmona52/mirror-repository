@@ -4,7 +4,7 @@ import { useAppStore } from "@/store/StoreProvider";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { useMemo, useState } from "react";
-import { Modal, ModalContent, ModalTitle, ModalHeader, ModalDescription, ModalFooter, ModalClose } from "@/components/ui/Modal";
+import { Modal, ModalContent, ModalTitle, ModalHeader, ModalFooter } from "@/components/ui/Modal";
 import { Order } from "@/lib/types/order";
 
 import {toSpanish} from "@/hooks/translateStatusToSpanish";
@@ -99,9 +99,9 @@ export default function PedidosPage() {
             ) : (
                 <div className="flex flex-wrap gap-2">
                     {filteredOrders.map((order) => (
-                        <Card key={order.id} onClick={() => setSelectedOrder(order)}>
+                        <Card key={order.id} onClick={() => setSelectedOrder(order)} className='!important p-4'>
                             <CardHeader>
-                                <div className="flex items-start justify-between">
+                                <div className="flex items-start justify-between mb-2">
                                     <div>
                                         <CardTitle>{order.orderNumber}</CardTitle>
                                         <CardDescription>

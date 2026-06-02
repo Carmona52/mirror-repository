@@ -14,7 +14,7 @@ const Navbar: FC = () => {
     const logout = useAppStore((state) => state.logout)
 
     return (
-        <nav className="flex items-center justify-between px-5 py-4 bg-primary text-white">
+        <nav className="navbar-glass sticky top-0 z-40 flex items-center justify-between px-5 py-4 bg-primary ">
             <div className="cursor-pointer" onClick={() => router.push('/')}>
                 <h2>MiApp</h2>
             </div>

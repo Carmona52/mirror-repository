@@ -31,8 +31,8 @@ export function useSidebar() {
 }
 
 const Sidebar = React.forwardRef<HTMLElement, React.HTMLAttributes<HTMLElement>>(
-    ({ className, children, ...props }, ref) => {
-        const { collapsed, setCollapsed } = useSidebar();
+    ({className, children, ...props}, ref) => {
+        const {collapsed, setCollapsed} = useSidebar();
 
         return (
             <aside

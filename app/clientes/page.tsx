@@ -71,7 +71,7 @@ export default function ClientesPage() {
             ) : (
                 <div className="flex flex-wrap gap-2">
                     {filteredCustomers.map((customer) => (
-                        <Card key={customer.id} onClick={() => setSelectedCustomer(customer)}>
+                        <Card key={customer.id} onClick={() => setSelectedCustomer(customer)} className='!important p-4'>
                             <CardHeader>
                                 <CardTitle>{customer.firstName} {customer.lastName}</CardTitle>
                                 <CardDescription>{customer.email}</CardDescription>

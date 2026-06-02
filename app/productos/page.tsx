@@ -1,7 +1,7 @@
 'use client'
 
 import {useAppStore} from "@/store/StoreProvider";
-import {Card, CardBody, CardContent, CardDescription, CardFooter, CardHeader, CardTitle} from "@/components/ui/Card";
+import {Card, CardBody, CardContent, CardDescription, CardHeader, CardTitle} from "@/components/ui/Card";
 import {Button} from "@/components/ui/Button";
 import Image from "next/image";
 import {useMemo, useState} from "react";
@@ -9,7 +9,6 @@ import {Product} from "@/lib/types/products";
 import {
     Modal,
     ModalContent,
-    ModalTrigger,
     ModalTitle,
     ModalHeader,
     ModalDescription,
@@ -126,7 +125,7 @@ export default function ProductosPage() {
                                         alt={product.name}
                                         width={288}
                                         height={160}
-                                        className="w-full h-40 object-cover"
+                                        className="w-full h-60 object-cover"
                                     />
                                 ) : (
                                     <div
