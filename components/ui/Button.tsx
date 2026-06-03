@@ -7,7 +7,7 @@ const buttonVariants = cva(
     {
         variants: {
             variant: {
-                default: 'glass border border-glass-border-subtle shadow-glass hover:bg-white/20 dark:hover:bg-white/10',
+                default: 'glass border border-glass-border-subtle shadow-glass hover:bg-white/20 dark:hover:bg-white/10 ',
                 primary: 'glass-strong bg-primary/80 text-primary-foreground border border-primary/30 shadow-glass-lg hover:bg-primary/90',
                 secondary: 'glass bg-secondary/70 text-secondary-foreground border border-glass-border-subtle shadow-glass hover:bg-secondary/80',
                 destroy: 'glass bg-red-500/10 text-red-500 border border-red-500/20 hover:bg-red-500/20 hover:text-red-600 hover:shadow-glass',
