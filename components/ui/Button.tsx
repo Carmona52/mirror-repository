@@ -40,14 +40,15 @@ export interface ButtonProps
 const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     ({className, variant, size, icon, iconPosition = "left", children, ...props}, ref) => {
         return (
-            <button className={cn(buttonVariants({variant, size, className}))} ref={ref} {...props}>
-                {icon && iconPosition === "left" && icon}
+            <button className={cn(buttonVariants({variant, size}), "flex items-center justify-center gap-2", className)} ref={ref} {...props}>
+                {icon && iconPosition === "left" && <span className="flex-shrink-0">{icon}</span>}
                 {children}
-                {icon && iconPosition === "right" && icon}
+                {icon && iconPosition === "right" && <span className="flex-shrink-0">{icon}</span>}
             </button>
         )
     }
 )
+
 
 Button.displayName = "Button"
 

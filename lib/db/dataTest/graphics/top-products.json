@@ -1,0 +1,62 @@
+[
+  {
+    "productId": "p001",
+    "productName": "Cemento Portland Gris 50kg",
+    "unitsSold": 1240,
+    "revenue": 11147.60
+  },
+  {
+    "productId": "p002",
+    "productName": "Ladrillo Hueco 12x18x33",
+    "unitsSold": 8750,
+    "revenue": 3937.50
+  },
+  {
+    "productId": "p003",
+    "productName": "Varilla de Acero Corrugado 3/8",
+    "unitsSold": 560,
+    "revenue": 7000.00
+  },
+  {
+    "productId": "p005",
+    "productName": "Placa de Yeso 120x240cm",
+    "unitsSold": 430,
+    "revenue": 6772.50
+  },
+  {
+    "productId": "p010",
+    "productName": "Arena Fina de Río 40kg",
+    "unitsSold": 2100,
+    "revenue": 7875.00
+  },
+  {
+    "productId": "p013",
+    "productName": "Taladro Percutor 650W",
+    "unitsSold": 95,
+    "revenue": 5699.05
+  },
+  {
+    "productId": "p018",
+    "productName": "Lámpara LED 15W",
+    "unitsSold": 3200,
+    "revenue": 15968.00
+  },
+  {
+    "productId": "p022",
+    "productName": "Tubo de Cobre 1/2 x 3m",
+    "unitsSold": 280,
+    "revenue": 5250.00
+  },
+  {
+    "productId": "p030",
+    "productName": "Viga de Acero IPN 120",
+    "unitsSold": 45,
+    "revenue": 4432.50
+  },
+  {
+    "productId": "p034",
+    "productName": "Martillo de Uña 450g",
+    "unitsSold": 340,
+    "revenue": 3736.60
+  }
+]

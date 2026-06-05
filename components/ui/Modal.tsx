@@ -202,7 +202,7 @@ ModalFooter.displayName = "ModalFooter"
 
 const ModalTitle = React.forwardRef<HTMLHeadingElement, React.HTMLAttributes<HTMLHeadingElement>>(
     ({className, ...props}, ref) => (
-        <h3 ref={ref} className={cn("text-xl font-semibold leading-none tracking-tight pr-6", className)} {...props} />
+        <h3 ref={ref} className={cn("text-xl font-bold leading-none tracking-tight pr-6", className)} {...props} />
     )
 )
 ModalTitle.displayName = "ModalTitle"

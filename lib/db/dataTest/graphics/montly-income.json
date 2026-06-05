@@ -1,0 +1,74 @@
+[
+  {
+    "month": "Enero 2025",
+    "totalRevenue": 28590.45,
+    "ordersCount": 34,
+    "averageOrderValue": 840.90
+  },
+  {
+    "month": "Febrero 2025",
+    "totalRevenue": 31240.80,
+    "ordersCount": 41,
+    "averageOrderValue": 761.97
+  },
+  {
+    "month": "Marzo 2025",
+    "totalRevenue": 27890.25,
+    "ordersCount": 38,
+    "averageOrderValue": 734.22
+  },
+  {
+    "month": "Abril 2025",
+    "totalRevenue": 35980.60,
+    "ordersCount": 45,
+    "averageOrderValue": 799.57
+  },
+  {
+    "month": "Mayo 2025",
+    "totalRevenue": 42100.30,
+    "ordersCount": 52,
+    "averageOrderValue": 809.62
+  },
+  {
+    "month": "Junio 2025",
+    "totalRevenue": 39870.90,
+    "ordersCount": 49,
+    "averageOrderValue": 813.69
+  },
+  {
+    "month": "Julio 2025",
+    "totalRevenue": 43520.75,
+    "ordersCount": 55,
+    "averageOrderValue": 791.29
+  },
+  {
+    "month": "Agosto 2025",
+    "totalRevenue": 46250.20,
+    "ordersCount": 60,
+    "averageOrderValue": 770.84
+  },
+  {
+    "month": "Septiembre 2025",
+    "totalRevenue": 51340.50,
+    "ordersCount": 65,
+    "averageOrderValue": 789.85
+  },
+  {
+    "month": "Octubre 2025",
+    "totalRevenue": 55780.00,
+    "ordersCount": 72,
+    "averageOrderValue": 774.72
+  },
+  {
+    "month": "Noviembre 2025",
+    "totalRevenue": 61290.30,
+    "ordersCount": 78,
+    "averageOrderValue": 785.77
+  },
+  {
+    "month": "Diciembre 2025",
+    "totalRevenue": 68450.15,
+    "ordersCount": 85,
+    "averageOrderValue": 805.30
+  }
+]

@@ -1,37 +1,22 @@
 "use client";
 
 import {FC} from "react";
-import {useAppStore} from "@/store/StoreProvider";
-import {useShallow} from 'zustand/react/shallow'
+import ButtonsLogin from "@/components/layout/LoginButtons";
 import {useRouter} from "next/navigation";
 import {Button} from "@/components/ui/Button";
 
 const Navbar: FC = () => {
     const router = useRouter();
 
-    const user = useAppStore(useShallow((state) => state.user))
-    const isAuthenticated = useAppStore((state) => state.isAuthenticated)
-    const logout = useAppStore((state) => state.logout)
+
 
     return (
-        <nav className="navbar-glass sticky top-0 z-40 flex items-center justify-between px-5 py-4 bg-primary ">
+        <nav className="navbar-glass sticky z-40 flex items-center px-5 py-4 bg-primary justify-between">
             <div className="cursor-pointer" onClick={() => router.push('/')}>
-                <h2>MiApp</h2>
+                <h1 className='font-bold text-xl text-white'>Materiales San Otilio</h1>
             </div>
-            <div className='flex w-72 justify-around items-center'>
-                <ul className="flex gap-6">
-                    {isAuthenticated ? (
-                        <>
-                            <span>Hola, {user?.name}</span>
-                            <button onClick={logout}>Cerrar sesión</button>
-                        </>
-                    ) : (
-                        <a href="/login">Iniciar sesión</a>
-                    )}
-
-
-                </ul>
-                <Button>Soporte Técnico</Button>
+            <div className='flex justify-around items-center'>
+                <ButtonsLogin/>
             </div>
         </nav>
     );

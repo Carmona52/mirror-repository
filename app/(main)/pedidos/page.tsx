@@ -151,18 +151,18 @@ export default function PedidosPage() {
                         <div className="space-y-4 px-6 py-4">
                             <div className="grid grid-cols-2 gap-4">
                                 <div>
-                                    <p className="text-sm font-medium text-gray-600">Número de Pedido</p>
+                                    <p className="text-md font-semibold ">Número de Pedido</p>
                                     <p className="text-base">{selectedOrder.orderNumber}</p>
                                 </div>
                                 <div>
-                                    <p className="text-sm font-medium text-gray-600">Estado</p>
+                                    <p className="text-md font-semibold ">Estado</p>
                                     <p className="text-base">{toSpanish(selectedOrder.status)}</p>
                                 </div>
                             </div>
 
                             <div className="grid grid-cols-2 gap-4">
                                 <div>
-                                    <p className="text-sm font-medium text-gray-600">Fecha de Creación</p>
+                                    <p className="text-md font-semibold ">Fecha de Creación</p>
                                     <p className="text-base">
                                         {new Date(selectedOrder.createdAt).toLocaleDateString("es-ES", {
                                             year: "numeric",
@@ -174,7 +174,7 @@ export default function PedidosPage() {
                                     </p>
                                 </div>
                                 <div>
-                                    <p className="text-sm font-medium text-gray-600">Última Actualización</p>
+                                    <p className="text-md font-semibold ">Última Actualización</p>
                                     <p className="text-base">
                                         {new Date(selectedOrder.updatedAt).toLocaleDateString("es-ES", {
                                             year: "numeric",
@@ -188,14 +188,14 @@ export default function PedidosPage() {
                             </div>
 
                             <div>
-                                <p className="text-sm font-medium text-gray-600">Cliente</p>
+                                <p className="text-md font-semibold ">Cliente</p>
                                 <p className="text-base">
                                     {selectedOrder.customer?.firstName} {selectedOrder.customer?.lastName}
                                 </p>
                             </div>
 
                             <div>
-                                <p className="text-sm font-medium text-gray-600 mb-2">Items</p>
+                                <p className="text-md font-semibold ">Items</p>
                                 <div className="space-y-2 bg-gray-50 p-3 rounded">
                                     {selectedOrder.items.map((item, idx) => (
                                         <div key={idx} className="flex justify-between text-sm">

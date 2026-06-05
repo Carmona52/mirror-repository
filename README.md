@@ -1,4 +1,12 @@
-# Esta es una plantilla para proyectos creada con NextJs 16.1.6 
+# Proyecto web para la plataforma de gestión de Materiales San Otilio  
+
+## Tecnologías usadas
+
+> Next.JS en la versión 16.1 (sujeto a cambios)
+
+> Zustand
+
+>
 
 ## ¿Qué es Next.js?
 

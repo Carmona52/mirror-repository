@@ -48,7 +48,7 @@ const Sidebar = React.forwardRef<HTMLElement, React.HTMLAttributes<HTMLElement>>
 
                 <Button
                     onClick={() => setCollapsed(!collapsed)}
-                    icon={<ChevronLeft className="w-5 h-5"/>}
+                    icon={<ChevronLeft className="w-5 h-5 z-40 text-black" />}
                     className={cn(
                         "absolute top-6 -right-3 z-50",
                         "flex items-center justify-center",
